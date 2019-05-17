@@ -4,3 +4,5 @@
 2. Extract, Transform, Load.docx -- Project writeup in Word format
 3. Extract, Transform, Load.pages -- Project writeup in Pages format
 4. etl.sql -- SQL code for creating database and tables
+5. index.html -- The slideshow in interactive HTML format
+6. index.ipynb -- The IPython notebook that generated the slideshow
