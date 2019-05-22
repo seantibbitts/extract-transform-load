@@ -44,6 +44,7 @@ create table rep_gun_donations (
 	rep_last_name varchar(50),
 	rep_first_name varchar(50),
 	rep_party varchar(10),
+    rep_state varchar(10),
 	Amount float
 );
 
@@ -53,6 +54,5 @@ create table rep_district (
 	congressional_district int,
 	rep_first_name varchar(50),
 	rep_last_name varchar(50),
-	primary key (state_abbr, congressional_district),
-	foreign key (rep_id) references rep_gun_donations(rep_id)
+	primary key (state_abbr, congressional_district)
 );
